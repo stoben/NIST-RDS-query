@@ -24,7 +24,7 @@ func main() {
 
 	usage := "Usage -f for creating MD5 on the fly -h for setting md5 directly";
 
-	if(len(os.Args) < 2) {
+	if(len(os.Args) < 3) {
 		fmt.Println(usage)
 		return
 	}
